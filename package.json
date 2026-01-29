@@ -1,5 +1,5 @@
 {
-  "name": "@ffhub.io/n8n-nodes-ffhub",
+  "name": "@ffhub/n8n-nodes-ffhub",
   "version": "0.1.0",
   "description": "n8n node for FFHub - Cloud FFmpeg transcoding service",
   "keywords": [

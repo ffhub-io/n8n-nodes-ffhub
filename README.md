@@ -11,7 +11,7 @@ This is an n8n community node for [FFHub](https://ffhub.io) - a cloud-based FFmp
 Follow the [installation guide](https://docs.n8n.io/integrations/community-nodes/installation/) in the n8n community nodes documentation.
 
 ```bash
-npm install @ffhub.io/n8n-nodes-ffhub
+npm install @ffhub/n8n-nodes-ffhub
 ```
 
 ## Operations
