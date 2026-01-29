@@ -80,7 +80,6 @@ ffmpeg -i https://example.com/video.mp4 -ss 00:00:05 -vframes 1 thumbnail.jpg
 ## Resources
 
 - [FFHub Documentation](https://docs.ffhub.io)
-- [FFHub API Reference](https://api.ffhub.io/swagger)
 - [n8n Community Nodes](https://docs.n8n.io/integrations/community-nodes/)
 
 ## License

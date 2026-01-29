@@ -40,14 +40,14 @@ npm install @ffhub/n8n-nodes-ffhub
 
 ```
 FFmpeg Command:
-ffmpeg -i https://example.com/input.mp4 -c:v libx264 -crf 23 output.mp4
+ffmpeg -i https://storage.ffhub.io/Sample_Video_File_100MB.mp4 -c:v libx264 -preset fast output.mp3
 ```
 
 ### 格式转换
 
 ```
 FFmpeg Command:
-ffmpeg -i https://example.com/input.mov -c:v libx264 -c:a aac output.mp4
+ffmpeg -i https://storage.ffhub.io/Sample_Video_File_100MB.mp4 -c:v libx264 -c:a aac output.webm
 ```
 
 ### 提取音频
@@ -78,7 +78,6 @@ ffmpeg -i https://example.com/video.mp4 -ss 00:00:05 -vframes 1 thumbnail.jpg
 ## 相关资源
 
 - [FFHub 文档](https://docs.ffhub.io)
-- [FFHub API 参考](https://api.ffhub.io/swagger)
 - [n8n 社区节点](https://docs.n8n.io/integrations/community-nodes/)
 
 ## 许可证
