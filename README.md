@@ -1,5 +1,7 @@
 # n8n-nodes-ffhub
 
+English | [中文](README_CN.md)
+
 This is an n8n community node for [FFHub](https://ffhub.io) - a cloud-based FFmpeg transcoding service.
 
 [FFHub](https://ffhub.io) lets you run FFmpeg commands in the cloud without managing servers. Simply submit your FFmpeg command and get the output files via URL.
