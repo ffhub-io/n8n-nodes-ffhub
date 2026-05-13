@@ -173,7 +173,7 @@ export class FFHub implements INodeType {
               { name: 'All', value: '' },
               { name: 'Pending', value: 'pending' },
               { name: 'Running', value: 'running' },
-              { name: 'Completed', value: 'completed' },
+              { name: 'Succeeded', value: 'succeeded' },
               { name: 'Failed', value: 'failed' },
             ],
             default: '',
@@ -266,8 +266,9 @@ export class FFHub implements INodeType {
 
             const status = responseData.status as string;
 
-            // 任务已完成或失败
-            if (status === 'completed' || status === 'failed') {
+            // Terminal states: backend uses 'succeeded' since v2, older builds
+            // returned 'completed'. Accept both so the loop never hangs.
+            if (status === 'succeeded' || status === 'completed' || status === 'failed') {
               break;
             }
 
